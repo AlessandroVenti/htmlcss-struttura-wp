@@ -23,5 +23,9 @@ body {
 .header-setup {
   height: 100px;
   background-color: pink;
+}
 
+.section1-setup {
+  height: 400px;
+  background-color: orange;
 }
