@@ -4,3 +4,24 @@
   border: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 1% auto;
+  background-color: red;
+  height: 100%;
+}
+
+.margin1 {
+  margin-bottom: 1%;
+}
+
+.header-setup {
+  height: 100px;
+  background-color: pink;
+
+}
