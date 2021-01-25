@@ -11,9 +11,7 @@ body {
 
 .container {
   width: 80%;
-  margin: 1% auto;
-  background-color: red;
-  height: 100%;
+  margin:  2% auto;
 }
 
 .margin1 {
@@ -26,6 +24,43 @@ body {
 }
 
 .section1-setup {
-  height: 400px;
+  height: 300px;
   background-color: orange;
+}
+
+.margin2 {
+  margin-bottom: 0.5%;
+}
+
+.float-box {
+  height: 500px;
+  background-color: blue;
+}
+
+.pre-float {
+  height: 100px;
+  background-color: lightblue;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float {
+  float: left;
+  width:20%;
+  height: 380px;
+  background-color: lightblue;
+}
+
+.float2 {
+  float: left;
+  width:58%;
+  height: 380px;
+  background-color: lightblue;
+}
+.margin-right {
+  margin-right: 1%;
 }
