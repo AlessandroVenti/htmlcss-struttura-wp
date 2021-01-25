@@ -5,12 +5,10 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-}
 
 .container {
   width: 80%;
+  height: 100vh;
   margin: auto;
   padding: 1% 0;
 }
@@ -19,26 +17,26 @@ body {
   margin-bottom: 1%;
 }
 
-.header-setup {
+.header-box {
   height: 80px;
   background-color: pink;
 }
 
-.section1-setup {
-  height: 330px;
+.section1-box {
+  height: 335px;
   background-color: orange;
+}
+
+.section2-box {
+  height: 450px;
+  background-color: blue;
 }
 
 .margin2 {
   margin-bottom: 0.5%;
 }
 
-.float-box {
-  height: 450px;
-  background-color: blue;
-}
-
-.pre-float {
+.text-section {
   height: 100px;
   background-color: lightblue;
 }
@@ -56,17 +54,15 @@ body {
   background-color: lightblue;
 }
 
-.float2 {
+.float-center {
   float: left;
   width:58%;
   height: 320px;
   background-color: lightblue;
-}
-.margin-right {
-  margin-right: 1%;
+  margin: 0 1%;
 }
 
 .footer-setup {
-  height: 50px;
+  height: 55px;
   background-color: violet;
 }
